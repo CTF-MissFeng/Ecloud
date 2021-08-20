@@ -82,7 +82,7 @@
 > 如果是测试可以省略web脚本，url直接填server http监听地址，若需要使用web脚本，则将web脚本上传到web目录中，url填写web脚本地址
 
 #### 视频演示
-<iframe src="//player.bilibili.com/player.html?bvid=BV1bq4y1S7iC&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+https://www.bilibili.com/video/BV1bq4y1S7iC/
 
 ### 去做
 > 该项目正在开发中
