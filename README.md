@@ -52,7 +52,7 @@
 ### 流量特征
 > 内置ua协议头，每次发送不一致，内置1000+常用api变量名，可指定分段大小，如分段长度为20，则100大小的数据分为5个key-value形式；返回数据特征暂未处理
 
-![index](https://github.com/CTF-MissFeng/Ecloud/blob/master/img/1.png)
+![index](https://raw.githubusercontent.com/CTF-MissFeng/Ecloud/main/img/1.png)
 
 ### 优化
 - 配置了只代理局域网功能，这样浏览器使用当前socket5打开外网地址不影响
