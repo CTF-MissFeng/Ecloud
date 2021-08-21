@@ -84,9 +84,34 @@
 #### 视频演示
 https://www.bilibili.com/video/BV1bq4y1S7iC/
 
+
+## 内网Http代理
+> 要使内网使用socket5代理出网，那http发包量将是正向socket5隧道的几倍，因为socket读写在内网端；
+
+> 考虑到内网出网情况下只有使用cs等c2后门程序，那么http代理将是最好选择，同时大大减少了http发包请求；目前只写了http代理post和get两种方法，同时支持header、cookies协议头，对cs来说足够用了，后面不够在完善；
+
+### CS使用教程
+
+> 监听选择http代理，地址为server端web端口，server端只开了这一个监听端口：
+
+![index](https://raw.githubusercontent.com/CTF-MissFeng/Ecloud/main/img/2.png)
+
+> 可看到http代理功能发包请求相较于socket5隧道少
+
+![index](https://raw.githubusercontent.com/CTF-MissFeng/Ecloud/main/img/3.png)
+
+> cs功能都能正常使用，除了数据流太大情况下，如截图、上下载文件等：
+
+![index](https://raw.githubusercontent.com/CTF-MissFeng/Ecloud/main/img/4.png)
+
+![index](https://raw.githubusercontent.com/CTF-MissFeng/Ecloud/main/img/5.png)
+
+![index](https://raw.githubusercontent.com/CTF-MissFeng/Ecloud/main/img/6.png)
+
+
 ### 去做
 > 该项目正在开发中
 
-- 内网程序出网
+- 内网程序出网 （已完成）
 - 虚拟终端
 - 更好想法
